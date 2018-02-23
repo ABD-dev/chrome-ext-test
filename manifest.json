@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Ceva Dulce | Facturi Emag Marketplace",
+  "description": "Generator facturi Emag Marketplace pentru Ceva Dulce",
+  "version": "1.0.2",
+  "author": "Bogdan Dinga <bogdan.dinga@gmail.com>",
+
+  "permissions": [
+    "tabs",
+    "https://marketplace.emag.ro/order/vendor_details/*"
+  ],
+
+  "browser_action": {
+    "default_title": "Ceva Dulce Factura EMAG Marketplace",
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+
+  "icons": { 
+    "128":"icon.png" 
+  }
+}
